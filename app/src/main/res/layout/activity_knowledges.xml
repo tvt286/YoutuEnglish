@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <youtuvideos.tranty.vn.youtuvideos.myview.RevealBackgroundView
+        android:id="@+id/vRevealBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/transparent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:contentScrim="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <LinearLayout
+                    android:id="@+id/vModuleRoot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorPrimary"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:paddingBottom="24dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:paddingTop="64dp"
+                    app:layout_collapseMode="parallax">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipChildren="false">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/im_knowledge"
+                            android:layout_width="@dimen/image_course_size"
+                            android:layout_height="@dimen/image_course_size"
+                            android:layout_marginRight="16dp"
+                            android:src="@color/colorGrey" />
+
+                        <LinearLayout
+                            android:id="@+id/vModuleDetails"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                                android:id="@+id/tv_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:maxLines="2"
+                                android:textColor="#ffffff"
+                                android:textSize="24sp"
+                                app:font="@string/font_roboto" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:orientation="horizontal"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp">
+
+
+                                <Button
+                                    android:id="@+id/btn_learn"
+                                    android:layout_width="0dp"
+                                    android:layout_height="24dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/btn_login"
+                                    android:text="Learn"
+                                    android:textColor="#ffffff"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/vModuleStats"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                                android:id="@+id/tv_number_modules"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#ffffff"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                app:font="@string/font_roboto" />
+
+                            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Modules"
+                                android:textColor="#ffffff"
+                                android:textSize="12sp"
+                                app:font="@string/font_roboto" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                                android:id="@+id/tv_register"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#ffffff"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                app:font="@string/font_roboto" />
+
+                            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Registers"
+                                android:textColor="#ffffff"
+                                android:textSize="12sp"
+                                app:font="@string/font_roboto" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:elevation="@dimen/default_elevation"
+                    app:layout_collapseMode="pin"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/view_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorGrey"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/selected_item"
+                    android:clickable="true">
+
+                    <LinearLayout
+                        android:id="@+id/item_setting"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Schedule Reminder"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="16sp"
+                                app:font="@string/font_roboto" />
+                        </RelativeLayout>
+
+                        <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                            android:id="@+id/tv_timepicker"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            app:font="@string/font_roboto" />
+
+                        <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                            android:id="@+id/tv_days"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/colorSecondaryText"
+                            android:textSize="16sp"
+                            app:font="@string/font_roboto" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/view_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/selected_item"
+                        android:clickable="true"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_edit" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/selected_item"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learning Process"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="16sp"
+                        app:font="@string/font_roboto" />
+
+                    <com.github.mikephil.charting.charts.BarChart
+                        android:id="@+id/chart1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

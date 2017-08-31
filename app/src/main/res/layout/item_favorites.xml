@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_feed.xml -->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@android:color/white"
+    card_view:cardCornerRadius="4dp"
+    card_view:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/ic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_channel" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="34dp"
+                android:layout_toRightOf="@id/ic_title"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/text_title_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/btn_delete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/selected_item"
+                android:src="@drawable/ic_clear" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/vImageRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/view_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:alpha="0.6"
+                android:background="@android:color/black">
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:text="Bạn cũng có thể dùng vị trí out-focus có sẵn của tấm ảnh để đặt chữ, nhưng hãy cẩn thận vì làm thế sẽ nguy hiểm khi tấm ảnh được thay đổi, và chữ của bạn không còn nằm trên phần out-focus của tấm ảnh mới nữa."
+                    android:textColor="#F5F5F5"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tv_description"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:text="123 Registers"
+                    android:textColor="#F5F5F5"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+
+            <ImageButton
+                android:id="@+id/btnComments"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_toRightOf="@id/btnLike"
+                android:background="@drawable/btn_course_action"
+                android:src="@drawable/ic_comment_outline_grey" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_comment" />
+
+                <TextView
+                    android:id="@+id/tv_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="123"
+                    android:textColor="@color/text_title_color" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_heart_small_blue" />
+
+                <TextView
+                    android:id="@+id/tv_likes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="123"
+                    android:textColor="@color/text_title_color" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

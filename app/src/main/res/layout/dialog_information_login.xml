@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="youtuvideos.tranty.vn.youtuvideos.dialog.InformationLoginDialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:alpha="0.7"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_banner_lgoin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_logo" />
+
+            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Đăng nhập ngay để thưởng thức thêm \n nhiều tiện ích nữa"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:font="@string/font_roboto" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check" />
+
+                <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Hơn 10000 Video đặc sắc"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="12sp"
+                    app:font="@string/font_roboto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check" />
+
+                <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Hẹn giờ học tiếng anh hiệu quả hơn"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="12sp"
+                    app:font="@string/font_roboto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check" />
+
+                <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Cập nhật diểm và quá trình học tập của khóa học"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="12sp"
+                    app:font="@string/font_roboto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check" />
+
+                <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                    android:id="@+id/customFontTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Lưu lại các khoá học yêu thích"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="12sp"
+                    app:font="@string/font_roboto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_check" />
+
+                <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Nhận xét về khóa học cho mọi người có trải nghiệm tốt hơn"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="12sp"
+                    app:font="@string/font_roboto" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_full_fb"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/ripple_effect_face"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/layout_fbtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:src="@mipmap/ic_fb" />
+
+                    <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Login with Facebook"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        app:font="@string/font_roboto" />
+
+                </LinearLayout>
+
+
+                <android.support.v4.widget.ContentLoadingProgressBar
+                    android:id="@+id/pb_fbloading"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_full_gplus"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_gplus"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+
+                    android:id="@+id/layout_gplustext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.25"
+                        android:src="@mipmap/ic_gplus" />
+
+                    <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Login with Google"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        app:font="@string/font_roboto" />
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/pb_gplusloading"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Vâng, tôi biết rồi"
+            android:textAllCaps="false"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/MyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="8dp"
+            android:text="Đăng nhập ngay"
+            android:textAllCaps="false"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contentRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:orientation="vertical">
+
+        <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+            android:id="@+id/tv_title"
+            app:font="@string/font_roboto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Course Languages"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorDarkText"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:font="@string/font_roboto"
+                android:text="Language Courses:"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="18sp" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spin_languages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_margin="10dp"/>
+
+            <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teachers:"
+                app:font="@string/font_roboto"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="18sp" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spin_teachers"
+                android:layout_width="match_parent"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="CANCEL"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textColor="@color/colorSecondaryText"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnOk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="OK"
+                    android:theme="@style/MyButton"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toast_layout_root"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:background="@color/colorAccent">
+
+
+    <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+        android:id="@+id/tv_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        app:font="@string/font_roboto"
+        android:textColor="#FFF" />
+
+</LinearLayout>

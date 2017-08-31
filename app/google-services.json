@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1062846611511",
+    "project_id": "youtuvideos-160501"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062846611511:android:76ce81240895f030",
+        "android_client_info": {
+          "package_name": "youtuvideos.tranty.vn.youtuvideos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062846611511-sn0bglkifbbrrgvovgrtrus0np6afud1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1062846611511-lbpj657c9lu2hpkla3u1vigdtoci3esc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "youtuvideos.tranty.vn.youtuvideos",
+            "certificate_hash": "c5bfc4640db0d3422e721e014ce03b6320434e06"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4vLkpf5qb6bYnVP4XX-DSFeaONWZ1UMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

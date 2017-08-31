@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b5a83</color>
+    <color name="colorPrimaryDark">#193e5e</color>
+
+    <color name="colorAccent">#01bcd5</color>
+    <color name="colorAcentDark">#009fb4</color>
+
+    <color name="color_delete">#F44336</color>
+    <color name="color_delete_dark">#D32F2F</color>
+
+    <color name="colorHighlight">#B6B6B6</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorDarkText">#000000</color>
+
+
+
+    <color name="colorGrey">#e6e6e6</color>
+    <color name="colorButtonSelect">#aba7a7</color>
+    <color name="colorCompleted">#696363</color>
+
+    <color name="text_title_color">#2b5a83</color>
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+    <color name="bg_comments">#ffffff</color>
+
+    <color name="bg_gplus">#FF3D00</color>
+    <color name="bg_fb">#3F51B5</color>
+    <color name="bg_twitter">#177EE5</color>
+    <color name="view_disable">#ededef</color>
+
+    <color name="colorRipple">#44000000</color>
+
+    <color name="border_button">#aba7a7</color>
+</resources>

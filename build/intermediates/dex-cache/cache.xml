@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\846eb7b98ed565914d08f2032d88c18eb8a3bac1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_b8dd39b6a3a6be781c23a7263dd2498ce613306c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\f01002f897375d895a214228197af42532c2ec9b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_b1cd03dbdc3aeb72d9816f6740c6c247110b3769.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\ebaadd6f85d2ba9e36d5f18afec0a33c0a47a511\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_91c6f6d48f65d22a53045ab346e4658336dcf8ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\07342da8a89cb793147ae7cf6505d4f5fa905d1c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_cbd6f411595c2f807a673ed9d618ca333fd86aaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\1e3aab6e7e6378a9aaa7e74798931434680cb8aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_348bd370524b4fbb75b01e6de17877a03aaaddf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\6e42ada58c2e883d041c7157d9410034fa53ea56\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_8425f039792ea37e3dde6fa1ec371aed5c6f7994.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\6f3748d3db34cf92496a9a129e946f881c1a80a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_81a986f5062f6dd8ee1fa2331365f19ffafd7425.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\dbba7e1b023600ece1a64af5c8bc31b730facb4a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_8bcee6fb714c7569807f2168f695067b44b85b39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\f4da5cde0601a411b5719c98c3c0026b78a8c021\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_b80097154e8d7658443dd44372c67a5f4d6a855d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android Studio Project\YoutuEnglish\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_5e8d4e72d9fd42a2175426683eaeb434f16ea18c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\7d84b542fb22db9969650ff667c4f53963263525\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_78e99b2f79a90cbab7282733757486ecdee6fdaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\440edff3fdfbc12ec56285a51162b3371822d7a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_37e104b18eaf2757b6699bcced0fe7cdc8d24de1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\25e751788daeaccf816768638cd84f36a8d9ed98\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_6f94a94fddd12ae030716554c68a2024dbc921ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\4d62a201d8c6f843d57befaff587e2d9973c2f3c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_edaf806f73139e65ca1b116584916587b3aec9b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\PC\.android\build-cache\8f3bf4cee1334f54e262908e00408c4530dc2c6d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="E:\Android Studio Project\YoutuEnglish\app\build\intermediates\pre-dexed\debug\classes_1b665854587d02a44eb258669e46f26917df84e6.jar" />
+    </item>
+
+</items>

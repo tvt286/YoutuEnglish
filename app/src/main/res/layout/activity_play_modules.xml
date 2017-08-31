@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGrey"
+    tools:context=".activities.PlayModulesActivity">
+
+    <FrameLayout
+        android:id="@+id/video_fragment"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/video_fragment"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16sp"
+                    app:font="@string/font_roboto" />
+
+                <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                    android:id="@+id/tv_length"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="14sp"
+                    app:font="@string/font_roboto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/item_knowledge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/selected_item"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/im_knowledge"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@color/colorGrey" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                        android:id="@+id/tv_title_knowledge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="16sp"
+                        app:font="@string/font_roboto" />
+                    <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                        android:id="@+id/tv_total_video_knowledge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:visibility="gone"
+                        android:textColor="@color/colorSecondaryText"
+                        android:textSize="14sp"
+                        app:font="@string/font_roboto" />
+                    <youtuvideos.tranty.vn.youtuvideos.myview.CustomFontTextView
+                        android:id="@+id/tv_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="With JYSK newsletter you get the campaign paper, news, competitions, inspiration and great offers directly to your inbox every "
+                        android:textColor="@color/colorSecondaryText"
+                        android:textSize="14sp"
+                        app:font="@string/font_roboto" />
+
+                    <ImageView
+                        android:id="@+id/btn_expand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_expand" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selected_item"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/btn_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="center"
+                        android:text="Register"
+                        android:theme="@style/MyButtonRegister" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <include layout="@layout/banner_ad" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v4.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rc_modules"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorGrey" />
+                </android.support.v4.widget.NestedScrollView>
+
+                <include layout="@layout/layout_loading" />
+
+                <include layout="@layout/layout_network" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

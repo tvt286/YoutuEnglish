@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">Youtu English</string>
+
+
+    <plurals name="likes_count">
+
+        <item quantity="one">%d like</item>
+
+        <item quantity="other">%d likes</item>
+
+    </plurals>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="network_fail">Network state disconnected</string>
+
+    <string name="delete_success">Delete Success.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Login-->
+    <string name="login">Login</string>
+    <string name="logout_success">You are logged out successfully</string>
+    <string name="logout">Logout</string>
+
+    <string name="pref_login_identifier">Login Identifier</string>
+
+    <string name="pref_is_loggedin">isLoggedIn</string>
+    <string name="login_success">Login Success.</string>
+    <!--luu thong tin user trong preference-->
+
+
+    <string name="email">email</string>
+
+    <string name="name">name</string>
+
+    <string name="id">id</string>
+
+    <string name="image">image</string>
+
+    <string name="key_userModel">userModel</string>
+
+    <string name="key_userBundle">userBundle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_register">Sign in to get a list of registered courses</string>
+
+    <string name="add_register">Click (+) to get a list of registered courses</string>
+
+    <string name="add_comment">Be the first to write a review</string>
+
+    <!--String array-->
+    <string-array name="spinner_languages">
+
+        <item>English language</item>
+
+        <item>Japan language</item>
+
+        <item>France language</item>
+
+    </string-array>
+    <string-array name="spinner_teachers">
+
+        <item>American teachers</item>
+
+        <item>Vietnamese teachers</item>
+
+        <item>Japan teachers</item>
+
+    </string-array>
+
+    <!--Dialog-->
+    <string name="schedule_days_null">Please set schedule days</string>
+    <string name="schedule_days_time_null">Please set schedule time and days</string>
+    <string name="schedule_time_null">Please set schedule time</string>
+    <string name="null_favorites">You are not like a knowledge</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+
+    <string name="seek_to">Jump To</string>
+
+    <string name="seek_to_hint">Seconds</string>
+    <string name="dialog_title">Delete</string>
+    <string name="dialog_logout_title">Logout</string>
+    <string name="dialog_logout_message">Do you want logout ?</string>
+    <string name="dialog_message">Do you want delete this course ?</string>
+    <!--FONT-->
+    <string name="font_roboto">Roboto</string>
+    <!--Knowledge Activity-->
+    <string name="null_schedule">Press edit to set schedule</string>
+    <!--Button notification-->
+    <string name="btn_play">PLAY</string>
+    <string name="btn_dissmiss">DISSMISS</string>
+    <string name="btn_turn_off">TURN OFF</string>
+    <!--Dialog Login-->
+
+    <string name="banner_ad_unit_id">ca-app-pub-4464139281471789/3105833354</string>
+
+    <!--Setting-->
+    <string name="register_success">Register succes</string>
+</resources>

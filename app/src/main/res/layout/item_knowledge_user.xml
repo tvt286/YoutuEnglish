@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:dragEdge="right"
+    app:mode="same_level">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/delete_layout"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selected_delete"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_delete" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pause_layout"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selected_pause"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/im_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_pause" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:id="@+id/view_item"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/selected_item"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/im_knowledge"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="16dp"
+                android:src="@color/colorGrey" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_knowledge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="English For Kids"
+                        android:maxLines="2"
+                        android:layout_marginRight="3dp"
+                        android:ellipsize="end"
+                        android:textColor="@color/colorDarkText"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/im_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_unlock"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_number_knowledges"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120 videos"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_proportion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_margin="2dp"
+                    android:text="40%"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:id="@+id/view_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E3F2FD"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/view_completed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="3dp"
+                        android:background="@color/colorAccent" />
+
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</com.chauthai.swipereveallayout.SwipeRevealLayout>
